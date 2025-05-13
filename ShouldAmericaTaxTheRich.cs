@@ -1,46 +1,44 @@
 public class ShouldAmericaTaxTheRich
 {
-    /*
-    The problem with even a “TINY” tax increase for the RICH, 
-    which I and all others would graciously accept in order to 
-    help the lower and middle income workers, is that the Radical 
-    Left Democrat Lunatics would go around screaming,“Read my lips,” 
-    the fabled Quote by George Bush the Elder that is said to have 
-    cost him the Election. NO, Ross Perot cost him the Election! In 
-    any event, Republicans should probably not do it, but I’m OK if 
-    they do!!!
-    */
+    // The problem with even a “TINY” tax increase for the RICH...
+    bool taxesIncreasedATinyBitForTheRich = false;
 
-    public void GeorgeTheElderScenario(bool raiseTaxesOnTheRich, bool rossPerotIsRunningForPresident)
+    // which I and all others would graciously accept in order to help the lower and middle income workers,
+    bool TheRichGraciouslyAcceptATinyTaxIncrease = true;
+
+    // is that the Radical Left Democrat Lunatics would go around screaming,“Read my lips,” 
+    string screamsOfRadicalLeftDemocratLunatics = string.Empty;
+
+    public string OutcomeOfTaxingTheRichIsBadForEveryone(bool raiseTaxes)
     {
-        string screamsOfRadicalLeftDemocratLunatics = string.Empty;
+        taxesIncreasedATinyBitForTheRich = raiseTaxes;
+        screamsOfRadicalLeftDemocratLunatics = taxesIncreasedATinyBitForTheRich ? "Read my lips" : string.Empty;
 
-        // The problem with even a “TINY” tax increase for the RICH is that the Radical Left Democrat Lunatics would go around screaming,“Read my lips”
-        if (raiseTaxesOnTheRich)
-        {
-            screamsOfRadicalLeftDemocratLunatics = "Read my lips";
-        }
+        // the fabled Quote by George Bush the Elder that is said to have cost him the election.
+        string RadicalLeftDemocratsWillCostRepublicansElections = ThisIsBadForRepublicans(screamsOfRadicalLeftDemocratLunatics);
 
-        if (WillRadicalLeftDemocratsCostRepublicansElections(screamsOfRadicalLeftDemocratLunatics, rossPerotIsRunningForPresident))
-        {
-            Console.WriteLine("This scenario is bad for Republican voters and all Americans.");
-        }
-        else
-        {
-            Console.WriteLine("This scenario is **NOT** bad for Republican voters or other Americans.");
-        }
+        // In any event, Republicans should probably not do it,
+        bool republicansShouldRaiseTaxes = raiseTaxes;
+
+        // but I’m OK if they do!!!
+        bool trumpIsOkWithIt = true;
+
+        return TheRichGraciouslyAcceptATinyTaxIncrease && trumpIsOkWithIt && republicansShouldRaiseTaxes ? RadicalLeftDemocratsWillCostRepublicansElections : "No";
+
     }
 
-    public bool WillRadicalLeftDemocratsCostRepublicansElections(string screamsOfRadicalLeftDemocratLunatics, bool rossPerotIsRunningForPresident)
+    public string ThisIsBadForRepublicans(string screamsOfRadicalLeftDemocratLunatics)
     {
         // NO, Ross Perot cost him the Election!
+        bool rossPerotIsRunningForPresident = false;
+
         if (screamsOfRadicalLeftDemocratLunatics == "Read my lips" && rossPerotIsRunningForPresident)
         {
-            return true;
+            return "Yes";
         }
         else
         {
-            return false;
+            return "No";
         }
     }
 }
