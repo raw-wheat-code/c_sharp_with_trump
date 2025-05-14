@@ -1,9 +1,9 @@
 # Learn C# With Trump
-*A satirical coding journey through the mind of the 45th President of the United States.*
+*A satirical coding journey through the mind of the 43rd & 45th President of the United States.*
 
 ## Overview
 
-**Learn C# With Trump** is a parody project that teaches fundamental C# concepts —  
+**Learn C# With Trump** is a parody project that "teaches" fundamental C# concepts —  
 through the "logic" of Donald J. Trump.
 
 Each code example and console app is inspired by real Trump quotes,  
@@ -15,15 +15,6 @@ modeled as "serious" C# programs that inevitably reveal broken reasoning, endles
 - **Parody** political rhetoric, focusing on Trump's cause-and-effect worldview.
 - **Demonstrate** how systems can seem "logical" on the surface but fall apart under structured thinking.
 - **Have fun** writing absolutely absurd, but technically functional, programs.
-
-## Current Modules
-
-| Module | Description |
-|:--|:--|
-| **DeportationEvaluation** | Simulates Trump's plan to immediately deport criminals... but forever gets stuck in due process technicalities. |
-| **TrumpExecutiveOrder** | Trump declares policies via hardcoded boolean switches and pretends to abolish inflation with a `true/false`. |
-| **TrumpTaxAnalysis** *(planned)* | Analyze raising taxes on the rich — while blaming Ross Perot regardless of outcome. |
-| **CriminalProfileEvaluator** *(planned)* | Randomly generates criminality scores based on stereotypes and random approval metrics. |
 
 ## Why Satirize Trump with C#?
 
@@ -63,13 +54,6 @@ It exists **purely for educational and comedic purposes**, showcasing how rhetor
 
 MIT License — because if there's one thing Trump and open-source developers agree on,  
 it's getting something for free.
-
-## Future Plans
-
-- More Trump quote-based console apps
-- "Emergency Order" randomizers
-- Fake "Supreme Court" that rules randomly on deportations
-- Absurd unit tests that always fail due to "rigged judges"
 
 ## Closing Thoughts
 
